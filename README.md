@@ -5,7 +5,7 @@ This repo contains the source of [the OMS jar](https://github.com/substratum/sub
 ```bash
 . build/envsetup.sh
 lunch
-make -j# oms_static
+make -j# substratum_platform
 ```
 
-Then copy that into the Substratum repo (app/src/main/libs/overlay-manager-service.jar) and build the app to test.
+Then copy that into the Substratum repo (app/src/main/libs/substratum-platform.jar) and build the app to test.
